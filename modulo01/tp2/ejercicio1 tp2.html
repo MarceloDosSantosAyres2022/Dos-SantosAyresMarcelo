@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html type="text/javascript">
+    <head>
+        <title>ejercicio1</title>
+    </head>
+    <body>
+        <script>
+            var verdadero, char
+            var valores = [verdadero, false, 2, "hola", "mundo", 3, char];
+            var valor = [];
+            for(let i=0; i<valores.length;i++){
+                if (typeof valores[i]=== "string"){
+                    valor.push (valores[i])
+                }
+            }
+
+            console.log("2. Imprimir elementos de  menor a mayor cantidad de letras: "+ valor.sort(function(a,b){return a.length - b.length}))
+            document.write("2. Imprimir elementos de  menor a mayor cantidad de letras: "+ valor.sort(function(a,b){return a.length - b.length})+"<br>")
+
+            num1= 2;
+            num2=3;
+            document.write(num1+num2+"<br>")
+            document.write(num1-num2+"<br>")
+            document.write(num1*num2+"<br>")
+            document.write(num1/num2+"<br>")
+
+
+        </script>
+    </body>
+</html>

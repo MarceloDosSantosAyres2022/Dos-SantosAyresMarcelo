@@ -1,0 +1,22 @@
+<!doctype html>
+<html type="text/javascript">
+    <head>
+        <title>ejercicio7 invertir texto</title>
+    </head>
+    <body>
+        <script>
+           function invert(str){
+            let texto = "";
+            for (let i=str.length-1; i>=0;i--){
+                texto= texto + str.charAt(i);
+            }
+            return texto;
+           }
+           console.log(invert("hola"))
+           alert(invert("hola"))
+           document.write(invert("hola mundo"))
+            
+          
+        </script>
+    </body>
+</html>

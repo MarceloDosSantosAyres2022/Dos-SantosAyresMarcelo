@@ -1,0 +1,34 @@
+<!doctype html>
+<html type="text/javascript">
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+           
+            var vocales = ["a", "e", "i", "o", "u"];
+            var texto = prompt("Introduce un texto");
+            var parar = false;
+            for (var i = 0; i < texto.length; i++) {
+                for (var j = 0; j < vocales.length; j++) {
+
+                    if (vocales[j] == texto.charAt(i)) {
+                        posicion = i+1;
+                        parar = true;
+
+                        break;
+                    }
+                
+                }
+                if (parar) {
+                    break;
+                    
+                }
+                
+            }
+            document.write('"'+vocales[j]+'"'+" está en la posición N " + posicion);
+            alert('"'+ vocales[j]+'"'+' está en la posición N ' + posicion);
+          
+        </script>
+    </body>
+</html>

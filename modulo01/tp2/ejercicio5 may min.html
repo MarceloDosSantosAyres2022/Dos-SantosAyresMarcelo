@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>mayuscula o minuscula</title>
+</head>
+<body>
+    <script>
+        function info(cadena){
+            var resultado = "la cadena \""+cadena+"\"";
+            if (cadena=== cadena.toUpperCase()){
+                resultado= "esta formada por mayusculas";
+            }
+            else if (cadena===cadena.toLowerCase()){
+                resultado="esta formada por minusculas";
+            }
+            else{
+                resultado = "mayusculas y minusculas"
+            }
+            return resultado;
+        }
+        alert(info(" HOLA MUNDO"));
+        alert(info(" Hola Mundo"));
+        alert(info(" hola mundo"));
+        document.write("HOLA MUNDO "+info(" HOLA MUNDO")+"<br>");
+        document.write("Hola Mundo "+info(" Hola Mundo")+"<br>");
+        document.write("hola mundo "+info(" hola mundo")+"<br>");
+    </script>
+</body>
+
+</html>
