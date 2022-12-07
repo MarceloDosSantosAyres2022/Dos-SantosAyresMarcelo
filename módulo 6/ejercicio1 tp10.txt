@@ -1,0 +1,58 @@
+Ejercicio 1:
+a - Describe dos usos o funciones que proporciona la declaración DOCTYPE en una página web.
+Identifica la versión de HTML empleada en la página web.
+Ayuda a una herramienta de validación a realizar la validación y detectar los errores de la página.
+Ayuda a un navegador web a visualizar correctamente la página web.
+
+b - Para que se utilizan las siguientes etiquetas:
+
+<head> </head> Proporciona información general (metadatos) acerca del documento, 
+incluyendo su título y enlaces a scripts y hojas de estilos.
+
+<title> </title> Permite darle un título a una página web. Este título se puede encontrar en la barra de título del navegador, 
+así como en las páginas de resultados de los buscadores.
+
+<meta> Las metaetiquetas, etiquetas meta o elementos meta (también conocidas por su nombre en inglés, metatags o meta tags) 
+son etiquetas HTML que se incorporan en el encabezado de una página web y que resultan invisibles para un visitante, 
+pero de gran utilidad para navegadores u otros programas que puedan valerse de esta información.
+
+<style> </style> Es el elemento encargado de indicar la información de estilo.
+
+<body> </body> Representa el contenido de un documento HTML. Solo puede haber un elemento <body> en un documento.
+
+<h1>,<h2>,<h3>,<h4>,<h5>,<h6> Los elementos de encabezado implementan seis niveles de encabezado del documento, 
+<h1>es el más importante, y <h6>el menos importante.
+
+<a> Permite crear un enlace a otras páginas de internet, archivos o rutas dentro de la misma página, 
+direcciones de correo, o cualquier otra URL.
+
+<strong> El elemento strong es el apropiado para marcar con especial énfasis en las partes más importantes de un texto.
+
+<br> El elemento HTML salto de línea <br> produce un salto de línea en el texto (retorno de carro). 
+Es útil para escribir un poema o una dirección, donde la división de las líneas es significativa.
+
+<ul> ul de "unordered list" -lista no ordenada . crea una lista no ordenada.
+
+<li> El elemento li del ingles item list o elemento de lista declara cada uno de los elementos de una lista.
+
+<p> El elemento p (párrafo) es el apropiado para distribuir el texto en párrafos.
+
+<span> Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.
+
+<table> </table> El Elemento de Tabla HTML (<table>) representa datos en dos o mas dimensiones.
+
+<tr> </tr> Define una fila de celdas en una tabla. Estas pueden ser una mezcla de elementos <td> y <th>.
+
+<td> </td> Define la celda de una tabla que contiene datos. Esta participa en el modelo de tablas.
+
+<img> Representa una imagen en el documento. Los navegadores no siempre muestran la imagen a la que el elemento hace referencia. 
+Es el caso de los navegadores no gráficos (incluyendo aquellos usados por personas con problemas de visión), 
+sí el usuario elige no mostrar la imagen, o sí el navegador es incapaz de mostrarla porque no es válida o soportada. 
+En ese caso, el navegador la reemplazará con el texto definido en el atributo alt.
+
+c- La etiqueta <script> puede ir dentro de las etiquetas de de <body> o <head>, hay alguna
+diferencia donde pueda ir?
+Se recomienda evitar poner los scripts en el <head>. El renderizado e interpretacion del HTML se realiza a medida que el navegador 
+encuentra los elementos en tu documento HTML. Por lo tanto si encuentra en la cabecera una etiqueta script,
+pues tendrá que esperar a que el navegador cargue el script para continuar con el renderizado de la pagina 
+por lo que verías el navegador con la pantalla en blanco, comportamiento que uno desea evitar.
